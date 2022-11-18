@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/*SCROLL */
+
+.init-hidden{
+
+    opacity: 0;
+    transition: opacity 1s linear ;
+}
+.init-hidden-off{
+   opacity: 1;
+}
+
+/*SCROLL*/
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #18171B;
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #18171B;
+    border-bottom: 1px solid #0081B9;
+    box-shadow: 0px 4px 4px 0px #0081B9;
+    font-size: 20px;
+    z-index: 9;
+
+}
+
+
+#inte{
+    width: 28px;
+    height: 28px;
+    padding-right: 17px;
+    
+}
+#dl{
+    padding-top: 2px;
+}
+#gm{
+    width: 69px;
+    height: 35px;
+}
+.modo{
+    display: flex;
+        
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 300px;
+    padding:20px;
+    
+    align-items: center;
+
+}
+.nav-list{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/* MAiN */
+
+main{
+   
+    height: 4000px;
+    width: 1600px;
+    margin: auto;
+}
+
+/* INICIO */
+
+
+section{
+      
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+#cpd{
+    color: #0081B9;
+    font-size: 60px; 
+    font-family: 'Reem Kufi', sans-serif;
+}
+.inicio{
+   
+    width: 1400px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    gap: 20px;
+    margin-left: 50px;
+    
+   
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Reem Kufi', sans-serif;
+    letter-spacing: 3px;
+}
+.ilust{
+    width: 420px;
+    height: 370;
+}
+.contb{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    margin-top: 20px;
+
+}
+
+.botaoP{
+  width: 160px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Reem Kufi', sans-serif;
+  border: 2px solid #0081B9;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 0px #0081B9;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 50px;
+  font-size: 28px;
+}
+.im{
+    width: 20px;
+    height: 17px;
+    padding-right: 10px;
+}
+.linhaA{
+    margin-left: 159px;
+    margin-top: 120px;
+    width: 685px;
+    border-color: #0081B9;
+    box-shadow: 0px 4px 3px 0px #0081B9;
+   
+}
+
+/* SOBRE */
+
+.sobre{
+   
+    width: 1400px;
+    margin-top: 150px;
+    margin-bottom: 265px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.txts{
+    font-size: 25px;
+    width: 700px;
+    text-align: justify;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    
+}
+.perfil{
+    margin-top: 80px;
+    width: 300px;
+}
+.tituloS{
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #0081B9;
+}
+
+
+/* EXPERIENCIA */
+.experiencia{
+    font-family: 'Reem Kufi', sans-serif;
+    width: 1400px;
+    margin-left: 60px;
+    padding-top: 110px;
+    margin-bottom: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    gap: 5px;
+}
+.alinha{
+    margin-bottom: 250px;
+}
+.tituloExperi{
+    display: flex;
+    
+    
+}
+.le{
+    border-color: #0081B9;
+    width: 5px;
+    background-color: #0081B9;
+    margin-right: 20px;
+
+}
+.data{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 505px;
+    color: #0081B9;
+    font-size: 23px;
+}
+
+.descriEmpresa{
+    margin-top: 250px;
+
+}
+
+/* PROJETOS */
+
+
+.tituloPro{
+    display: flex;
+    padding-left: 160px;
+    margin-top: 200px;
+
+}
+
+.projetos{
+    
+    width: 1400px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+ 
+    
+   
+}
+
+.imgPro{
+ margin-left: 160px;
+
+}
+.editImg{
+    width: 500px;
+    transition: 0.5s;
+
+}
+.editImgC{
+    width: 550px;
+    height: 302px;
+    transition: 0.5s;
+
+}
+.editImg:hover {
+    transform: scale(110%);
+}
+.editImgC:hover {
+    transform: scale(110%);
+}
+.projetosPosi{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Reem Kufi', sans-serif;
+    gap: 1px;
+}
+.pa{
+    font-size: 22px;
+    padding-bottom: 5px;
+    text-align: justify;
+    word-wrap: break-word;
+    line-break: 50px;
+    letter-spacing: 3px;
+    
+}
+
+.tec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0081B9;
+    font-size: 23px;
+}
+.edit{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.botaoAcessar{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 60px;
+}
+.botaoMais{
+    font-size: 27px;
+    width: 220px ;
+    height: 60px ;
+    margin: auto;
+    margin-top: 200px;
+    letter-spacing: 1px;
+    padding: 15px;
+    
+}
+.imgMais{
+    margin-right: 15px;
+}
+
+
+/*footer*/
+
+footer{
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid #0081B9;
+    box-shadow: 0px 4px 4px 0px #0081B9;
+}
+.imageF{
+    width: 60px;
+    padding-right: 40px;
+
+}
