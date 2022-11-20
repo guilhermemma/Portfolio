@@ -78,9 +78,10 @@
     display: flex;
     flex-direction: column;
   }
-
+  
   main {
-    height: 4600px;
+    margin: auto;
+    height: 100%;
   }
 
   .ilust {
@@ -93,7 +94,7 @@
 
   .titulo {
     text-align: center;
-    font-size: 30px;
+    font-size: 130%;
     padding: 18px;
   }
 
