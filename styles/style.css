@@ -84,20 +84,18 @@ a {
 /* MAiN */
 
 main {
-
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
     margin: auto;
+    background-color: aqua;
 }
 
 /* INICIO */
 
 
 section {
-
+    padding-right: 40px;
     align-items: center;
     margin-bottom: 100px;
-
 }
 
 #cpd {
@@ -369,6 +367,8 @@ section {
 /*footer*/
 
 footer {
+    width: 100%;
+    padding-left: 80px;
     padding: 22px;
     display: flex;
     justify-content: space-between;

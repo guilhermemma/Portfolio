@@ -82,14 +82,12 @@
   main {
     width: 888px;
     margin-left: 18vh;
-    background-color: purple;
   }
 
   section {
     margin: auto;
     width: 100%;
     text-align: center;
-    background-color: aqua;
   }
 
   .ilust {
@@ -107,7 +105,7 @@
   }
 
   .sobre {
-    width: 90vw;
+    width: 100%;
     flex-direction: column;
   }
 
