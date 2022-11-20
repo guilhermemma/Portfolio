@@ -80,8 +80,15 @@
   }
   
   main {
+    text-align: center;
     margin: auto;
     height: 100%;
+    background-color: aquamarine;
+  }
+  section{
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
   }
 
   .ilust {
