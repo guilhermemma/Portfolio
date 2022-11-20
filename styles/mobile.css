@@ -119,7 +119,6 @@
   .experiencia {
     width: 90vw;
     flex-direction: column;
-
   }
 
   .alinha {
@@ -150,29 +149,27 @@
 
   .projetos {
     width: 90vw;
-    margin-left: 50px;
     flex-direction: column;
-
   }
 
   .tituloPro {
-    width: 50%;
     margin: auto;
     display: flex;
-    margin-right: 115px;
     margin-bottom: 100px;
 
   }
 
   .projetosPosi {
-
+    
     margin: auto;
-    width: 80vw;
+    width: 100%;
     flex-direction: column;
     gap: 80px;
+    padding-left: 0px;
   }
 
   .imgPro {
+    width: 100%;
     text-align: center;
     margin-left: 0px;
 
