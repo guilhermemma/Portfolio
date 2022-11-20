@@ -79,6 +79,8 @@
     flex-direction: column;
   }
   body{
+    display: flex;
+    flex-direction: column;
     margin: auto;
     text-align: center;
   }
