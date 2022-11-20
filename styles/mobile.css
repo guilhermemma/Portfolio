@@ -80,10 +80,11 @@
   }
 
   main {
-    margin: auto;
+    justify-content: center;
     background-color: purple;
   }
-  section{
+
+  section {
     margin: auto;
     width: 100%;
     text-align: center;
@@ -167,7 +168,7 @@
   }
 
   .projetosPosi {
-    
+
     margin: auto;
     width: 100%;
     flex-direction: column;
