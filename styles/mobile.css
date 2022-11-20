@@ -80,7 +80,8 @@
   }
 
   main {
-    width: 100%;
+    width: 888px;
+    margin-left: 18vh;
     background-color: purple;
   }
 
