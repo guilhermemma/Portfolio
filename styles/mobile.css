@@ -72,21 +72,18 @@
 
 
 
-@media (max-width: 888px) {
+@media (max-width: 999px) {
   .inicio {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
 
-  main {
-    width: 888px;
-    margin-left: 18vh;
-  }
+
 
   section {
     margin: auto;
-    width: 100%;
+    width: 200vw;
     text-align: center;
   }
 
@@ -110,12 +107,12 @@
   }
 
   .perfil {
+    width: 40%;
     margin-bottom: 50px;
   }
 
   .txts {
-    width: 90vw;
-    margin-right: 18px;
+    width: 60%;
   }
 
   .editMob {
@@ -124,7 +121,7 @@
   }
 
   .experiencia {
-    width: 90vw;
+    width: 100%;
     flex-direction: column;
   }
 
@@ -134,7 +131,7 @@
 
   .tituloExperi {
     width: 80vw;
-    margin-right: 40px;
+    
   }
 
   .descriEmpresa {
@@ -155,7 +152,7 @@
   }
 
   .projetos {
-    width: 90vw;
+    width: 100%;
     flex-direction: column;
   }
 
@@ -169,7 +166,7 @@
   .projetosPosi {
 
     margin: auto;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     gap: 80px;
     padding-left: 0px;
@@ -193,12 +190,12 @@
   }
 
   .maisMobi {
-    width: 90vw;
-    padding-left: 56px;
+    margin-left: 31vw;
   }
 
   footer {
-    margin-top: 50px;
+    margin-top: 70vw;
+    width: 200vw;
     gap: 50px;
   }
 
