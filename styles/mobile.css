@@ -73,13 +73,12 @@
 
 
 @media (max-width: 999px) {
+ 
   .inicio {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-
-
 
   section {
     margin: auto;
@@ -97,7 +96,7 @@
 
   .titulo {
     text-align: center;
-    font-size: 130%;
+    font-size: 160%;
     padding: 18px;
   }
 
@@ -107,14 +106,15 @@
   }
 
   .perfil {
-    width: 40%;
+    width: 50%;
     margin-bottom: 50px;
   }
 
   .txts {
-    width: 60%;
+    width: 80%;
   }
-
+  
+ 
   .editMob {
     font-size: 23px;
     padding-right: 18px;
@@ -131,7 +131,7 @@
 
   .tituloExperi {
     width: 80vw;
-    
+
   }
 
   .descriEmpresa {
@@ -180,12 +180,12 @@
   }
 
   .editImgC {
-    width: 85%;
+    width: 80%;
     height: 33vh;
   }
 
   .editImg {
-    width: 85%;
+    width: 80%;
     height: 33vh;
   }
 
@@ -196,7 +196,7 @@
   footer {
     margin-top: 70vw;
     width: 200vw;
-    gap: 50px;
+    gap: 5vw;
   }
 
 }

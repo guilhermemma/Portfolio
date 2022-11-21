@@ -368,12 +368,12 @@ section {
 
 footer {
     width: 100%;
-    padding-left: 80px;
     padding: 22px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 5px solid #0081B9;
-    box-shadow: 0px 4px 4px 0px #0081B9;
+    
+    gap: 50vw;
 }
 
 .imageF {
